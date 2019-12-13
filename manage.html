@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Articles</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-light">
+    <header class="container-fluid border-bottom border-dark">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 align-self-center text-center">
+                <h2 class="">Backoffice du Blog</h2>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-sm-12 col-md-10 mx-auto">
+                <img class="logo img-fluid mx-auto d-block mb-2" id="logo" src="./img/logo.jpg" alt="logo_company">
+            </div>
+
+        </div>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <section class="col-xl-2 col-md-3">
+                <div class="btn-group-vertical w-100 mx-auto mt-3" role="group" aria-label="Vertical button group">
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Tableau de bord</a> </button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="create.html">Créer un article</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="manage.html">Gérer les articles</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Gérer les catégories</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Commentaires</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Modules</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Design</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Utilisateurs</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Statistiques</a></button>
+                    <button type="button" class="btn btn-secondary pt-3 pb-3"><a class="text-white text-decoration-none"
+                            href="">Paramètres</a></button>
+                </div>
+            </section>
+
+            <section class="col-xl-10 col-md-9 mt-3 text-center">
+                <h2>Gérez les articles publiés</h2>
+                <p>Un aperçu rapide de tous vos articles récemment rédigés</p>
+                <div class="row">
+                    <table class="table table-hover table-responsive col-xl-9 mx-auto">
+                        <thead>
+                            <tr>
+                                <th>Numéro d'article</th>
+                                <th>Titre</th>
+                                <th>Auteur</th>
+                                <th>Catégorie</th>
+                                <th>Date de publication</th>
+                                <th>Gérer</th>
+                                <th>Déplacer</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>001</td>
+                                <td>L'avenir de l'IA</td>
+                                <td>John Doe</td>
+                                <td>Actu</td>
+                                <td>10/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>002</td>
+                                <td>Développement web</td>
+                                <td>John Doe</td>
+                                <td>Métier</td>
+                                <td>11/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>003</td>
+                                <td>Les frameworks les plus connus</td>
+                                <td>John Doe</td>
+                                <td>Développement</td>
+                                <td>12/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>004</td>
+                                <td>Parlons salaire !</td>
+                                <td>John Doe</td>
+                                <td>Métier</td>
+                                <td>13/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>005</td>
+                                <td>Javascript, un bon langage ?</td>
+                                <td>John Doe</td>
+                                <td>Actu</td>
+                                <td>15/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>006</td>
+                                <td>Les formations en ligne !</td>
+                                <td>John Doe</td>
+                                <td>Métier</td>
+                                <td>17/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                            <tr>
+                                <td>007</td>
+                                <td>Symfony, ce framework français !</td>
+                                <td>John Doe</td>
+                                <td>Développement</td>
+                                <td>18/11/2019</td>
+                                <td><i class="fas fa-edit"></i><i class="fas fa-trash-alt"></i></td>
+                                <td><i class="fas fa-sort"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">Préc.</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Suiv.</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white container-fluid">
+        <div class="row">
+            <div class="col-xl-6 align-self-center text-center">
+                <h3 class="text-center">Blog Officiel de l'agence FlaminWeb</h3>
+                <div class="w-100">
+                    <ul class="list-inline footmenu">
+                        <li class="list-inline-item"><a class="text-xs-center text-white text-decoration-none"
+                                target="_blank" href="#">Notre agence</a>
+                        </li>
+                        <li class="list-inline-item"><a class="text-xs-center text-white text-decoration-none"
+                                target="_blank" href="#">Contactez-nous</a>
+                        </li>
+                        <li class="list-inline-item"><a class="text-xs-center text-white text-decoration-none"
+                                target="_blank" href="#">À propos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6 mx-auto text-center">
+                <div class="d-inline-block">
+                    <i class="fab fa-facebook fa-2x m-3 facebook"></i>
+                    <i class="fab fa-linkedin fa-2x m-3 linkedin"></i>
+                    <i class="fab fa-twitter fa-2x m-3 twitter"></i>
+                </div>
+                <p class="text-light">© 2019 Blog de Famingo</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<script src="https://kit.fontawesome.com/1de34be0f9.js" crossorigin="anonymous"></script>
+
+</html>

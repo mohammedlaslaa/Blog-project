@@ -1,0 +1,63 @@
+.facebook {
+    color: #3b5999;
+}
+
+.twitter {
+    color: #55acee;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.logo {
+    min-height: 100px;
+    min-width: 112px;
+    max-height: 200px;
+    max-width: 224px;
+    width: 20%;
+}
+
+@media screen and (max-width: 768px) {
+    .centersec {
+        margin: 0.75em auto !important;
+    }
+}
+
+th, td {
+    min-width: 130px;
+}
+
+html { 
+    font-size: 1rem; 
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+@media (max-width: 991px) {
+    h1 { 
+        font-size: 2rem; 
+    }
+
+    article ul li {
+        font-size: 0.8rem;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    h1 { font-size: 1.8rem; }
+}
+
+.footmenu>li:after {
+    content: ' /';
+    margin-left: 0;
+}
+
+.footmenu>li:last-child:after {
+    content: '';
+    margin-left: 0;
+}

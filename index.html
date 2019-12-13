@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Website with bootstrap</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="bg-light">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-xl-6 col-lg-9 col-sm-12 col-md-10 mx-auto">
+                <img class="logo img-fluid mx-auto d-block mb-2" id="logo" src="./img/logo.jpg" alt="logo_company">
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Actualité
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Actu de la semaine</a>
+                            <a class="dropdown-item" href="#">Articles</a>
+                            <a class="dropdown-item" href="#">Le développement</a>
+                            <a class="dropdown-item" href="#">Les métiers de l'informatique</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            À Propos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Notre agence</a>
+                            <a class="dropdown-item" href="#">Nos partenaires</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nous recrutons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nous contacter</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Recherche" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Recherche</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <section class="col-xl-8 col-lg-8 col-md-8">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-light">
+                        <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+                    </ol>
+                </nav>
+                <div class="row ml-2 mr-2">
+                    <article class="col-xl-10 ml-auto mt-2 mb-2 text-center bg-white border border-dark rounded shadow">
+                        <h4 class="mt-1">L'avenir du développeur</h4>
+                        <ul class="p-0">
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-user-alt mr-1"></i>John Doe</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-calendar-week mr-1"></i>16/11/2019</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-comments mr-1"></i>211</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-list mr-1"></i>Métier</li>
+                        </ul>
+                        <figure class="col-xl-8 col-lg-10 col-md-10 mx-auto">
+                            <img src="img/team.jpg" class="img-fluid" alt="">
+                            <figcaption class="text-justify">L'avenir du développement Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Voluptate....</figcaption>
+                        </figure>
+                        <a class="btn btn-primary mb-3" href="article1.html" role="button">Lire -></a>
+                    </article>
+                </div>
+
+                <div class="row ml-2 mr-2">
+                    <article class="col-xl-10 ml-auto mt-2 mb-2 text-center bg-white border border-dark rounded shadow">
+                        <h4 class="mt-1">Créer un site web</h4>
+                        <ul class="p-0">
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-user-alt mr-1"></i>John Doe</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-calendar-week mr-1"></i>16/11/2019</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-comments mr-1"></i>211</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-list mr-1"></i>Métier</li>
+                        </ul>
+                        <figure class="col-xl-8 col-lg-10 col-md-10 mx-auto align">
+                            <img src="img/site.jpg" class="img-fluid" alt="">
+                            <figcaption class="text-justify">L'avenir du développement Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Voluptate...</figcaption>
+                        </figure>
+                        <a class="btn btn-primary mb-3" href="#" role="button">Lire -></a>
+                    </article>
+                </div>
+
+                <div class="row ml-2 mr-2">
+                    <article class="col-xl-10 ml-auto mt-2 mb-2 text-center bg-white border border-dark rounded shadow">
+                        <h4 class="mt-1">Le e-learning est à la mode !</h4>
+                        <ul class="p-0">
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-user-alt mr-1"></i>John Doe</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-calendar-week mr-1"></i>16/11/2019</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-comments mr-1"></i>211</li>
+                            <li class="d-inline-block mr-sm-2"><i class="fas fa-list mr-1"></i>Métier</li>
+                        </ul>
+                        <figure class="col-xl-8 col-lg-10 col-md-10 mx-auto">
+                            <img src="img/elearning.jpg" class="img-fluid" alt="">
+                            <figcaption class="text-justify">L'avenir du développement Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Voluptate...</figcaption>
+                        </figure>
+                        <a class="btn btn-primary mb-3" href="#" role="button">Lire -></a>
+                    </article>
+                </div>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" href="#">Préc.</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Suiv.</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="col-xl-4 col-lg-4 col-md-4">
+                <div class="row">
+                    <article class="bg-secondary mt-2 mb-2 pt-2 pb-2 col-xl-8 col-lg-10 col-sm-10 mr-auto centersec">
+                        <h6 class="text-white">Participez au sondage</h6>
+                        <form action="">
+                            <p>Etes vous :</p>
+                            <div>
+                                <input type="radio" id="freelance" name="survey" value="freelance" checked>
+                                <label for="freelance">Freelance Développeur</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="hobbies" name="survey" value="hobbies">
+                                <label for="hobbies">Passionné</label>
+                            </div>
+
+                            <div>
+                                <input type="radio" id="developper" name="survey" value="developper">
+                                <label for="developper">Développeur</label>
+                            </div>
+                            <button type="submit" class="mx-auto d-block btn btn-primary">Je participe</button>
+                        </form>
+                    </article>
+                </div>
+
+                <div class="row">
+                    <article class="bg-secondary mt-2 mb-2 pt-2 pb-2 col-xl-8 col-lg-10 col-sm-10 mr-auto centersec">
+                        <h6 class="text-white">Derniers Articles</h6>
+                        <ul class="list-group">
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">L'avenir du
+                                    développement <span class="badge badge-primary">New</span>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">Créer un site
+                                    web
+                                    <span class="badge badge-primary">New</span>
+                                </li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">Le e-learning
+                                    est à
+                                    la mode ! <span class="badge badge-primary">New</span></li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">Les frameworks
+                                    en
+                                    2020 !</li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">Les débouchés
+                                    du
+                                    web</li>
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                                <li class="list-group-item list-group-item-action list-group-item-light">Envie d'en
+                                    apprendre sur le réseau ?</li>
+                            </a>
+                        </ul>
+                    </article>
+                </div>
+
+                <div class="row">
+                    <article class="bg-secondary mt-2 mb-2 pt-2 pb-2 col-xl-8 col-lg-10 col-sm-10 mr-auto centersec">
+                        <h6 class="text-white">Nos partenaires</h6>
+                        <div class="row">
+                            <div class="col-xl-10 col-md-12 col-sm-8 col-8 mx-auto">
+                                <figure>
+                                    <a href="https://openclassrooms.com/fr" class="text-decoration-none text-white"
+                                        target="_blank"><img class="w-25 img-fluid" src="./img/logoopen.png" alt="">
+                                        <p class="d-inline">OpenClassRoom</p>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-10 col-md-12 col-sm-8 col-8 mx-auto">
+                                <figure>
+                                    <a class="text-decoration-none text-white" href="developer.mozilla.org/fr/"
+                                        target="_blank"><img class="w-25 img-fluid" src="./img/mdn.jpg" alt="">
+                                        <p class="d-inline">MDN</p>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-10 col-md-12 col-sm-8 col-8 mx-auto">
+                                <figure>
+                                    <a class="text-decoration-none text-white"
+                                        href="https://www.w3schools.com/default.asp" target="_blank"><img
+                                            class="w-25 img-fluid" src="./img/w3s.jpg" alt="">
+                                        <p class="d-inline">W3Schools</p>
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="bg-dark text-white container-fluid">
+        <div class="row">
+            <div class="col-xl-6 align-self-center text-center">
+                <h3 class="text-center">Blog Officiel de l'agence FlaminWeb</h3>
+                <div>
+                    <ul class="list-inline footmenu">
+                        <li class="list-inline-item"><a class="text-xs-center text-white" target="_blank" href="#">Notre agence</a></li>
+                        <li class="list-inline-item"><a class="text-xs-center text-white" target="_blank"
+                                href="#">Contactez-nous</a></li>
+                        <li class="list-inline-item align"><a class="text-xs-center text-white" target="_blank" href="#">À propos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-6 mx-auto text-center">
+                <div class="d-inline-block">
+                    <i class="fab fa-facebook fa-2x m-3 facebook justify-"></i>
+                    <i class="fab fa-linkedin fa-2x m-3 linkedin"></i>
+                    <i class="fab fa-twitter fa-2x m-3 twitter"></i>
+                    <i class="far far-sold facts-icons"></i>
+                </div>
+                <p class="text-light">© 2019 Blog de Famingo</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<script src="https://kit.fontawesome.com/1de34be0f9.js" crossorigin="anonymous"></script>
+
+</html>
